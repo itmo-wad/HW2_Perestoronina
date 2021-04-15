@@ -1,0 +1,25 @@
+h1 {
+	font-size: x-large;
+	font-family: Verdana;
+	font-style: italic;
+	text-align: center;
+}
+img {
+	display: block;
+}
+.container {
+	margin: 0 auto;
+	max-width: 900px;
+}
+.gal {
+	display: flex;
+	flex-wrap: wrap;
+}
+.gal-item {
+	position: relative;
+	flex: 1 0 25%;
+	margin: 10px;
+}
+.gal-img{
+	width: 100%;
+}
